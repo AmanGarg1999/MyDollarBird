@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
 
     CalendarView calendarView;
     Button earning;
-    Button expence;
+    Button expense;
     Button view;
 
     @Override
@@ -20,15 +20,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
          calendarView = (CalendarView) findViewById(R.id.cal);
-         expence = (Button) findViewById(R.id.expbtn);
+         expense = (Button) findViewById(R.id.expbtn);
          earning = (Button) findViewById(R.id.earbtn);
          view = (Button) findViewById(R.id.viewbtn);
 
 
-         expence.setOnClickListener(new View.OnClickListener() {
+         expense.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
-                 Intent add_exp = new Intent(MainActivity.this, addExpences.class);
+                 Intent add_exp = new Intent(MainActivity.this, add_expense.class);
                  startActivity(add_exp);
              }
          });
