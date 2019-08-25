@@ -14,7 +14,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="26dp"
         android:layout_marginTop="239dp"
-        android:text="Total:"
+        android:text="@string/total"
         android:textSize="24sp" />
 
     <TextView
@@ -25,7 +25,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="25dp"
         android:layout_marginTop="173dp"
-        android:text="Expenses:"
+        android:text="@string/expenses"
         android:textSize="24sp" />
 
     <TextView
@@ -36,7 +36,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="129dp"
         android:layout_marginTop="23dp"
-        android:text="Balances"
+        android:text="@string/balances"
         android:textSize="30sp" />
 
     <TextView
@@ -47,7 +47,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="25dp"
         android:layout_marginTop="107dp"
-        android:text="Earnings:"
+        android:text="@string/earnings"
         android:textSize="24sp" />
 
     <android.support.v7.widget.RecyclerView

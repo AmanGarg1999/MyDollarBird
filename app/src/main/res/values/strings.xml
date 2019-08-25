@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">My Dollar Bird</string>
     <string name="MyDollarBird">Name</string>
-    <string name="add_expence">Add Expence</string>
+    <string name="add_expence">Add Expense</string>
     <string name="add_earning">Add Earning</string>
     <string name="view_details">View Details</string>
     <string name="balances">Balances</string>
@@ -9,11 +9,11 @@
     <string name="hours">Hours:</string>
     <string name="amount">Amount:</string>
     <string name="place">Place:</string>
-    <string name="tax_opt">Tax % (opt):</string>
+    <string name="tax_opt">Tax %:</string>
     <string name="add">Add</string>
     <string name="desc">Desc:</string>
-    <string name="description">Description</string>
-    <string name="add">Add</string>
-    <string name="place">Place:</string>
-    <string name="amount">Amount:</string>
+    <string name="description">Description: </string>
+    <string name="total">Total:</string>
+    <string name="expenses">Expenses:</string>
+    <string name="earnings">Earnings:</string>
 </resources>
